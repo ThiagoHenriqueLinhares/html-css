@@ -1,0 +1,22 @@
+body {
+    background-color: #1f1f1f;
+}
+.titulo {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 250%;
+}
+.curso-completo {
+    color: white;
+    margin-left: 45%;
+}
+.curso {
+    margin-left: 10%;
+}
+.imagem-voltar {
+    margin-left: 50%;
+}
+.imagens {
+    margin-left: 22%;
+}
