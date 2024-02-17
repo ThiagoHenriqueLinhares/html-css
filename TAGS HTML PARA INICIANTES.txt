@@ -1,0 +1,81 @@
+TAGS HTML PARA INICIANTES
+
+<!doctype>  declaração para informar ao navegador qual é a versão do       HTML utilizada no arquivo
+
+<html>   Define um documento html
+
+<head>   Contêm as informações gerais do documento
+
+<title>  Define o título da pagina
+
+<body>    Define o corpo da pagina
+
+<h1> até <h6>
+
+<p>
+
+<br>
+
+<hr>
+
+<!-...->
+
+FORMULÁRIO
+
+<form>
+
+<input>
+
+<textarea>
+
+<button>
+
+<select>
+
+<option>
+
+<label>
+
+<fieldset>
+
+FORMATAÇÃO
+
+<abbr>
+
+<b>
+
+<strong>
+
+<code>
+
+<em>
+
+<q>
+
+<blockquote>
+
+IMAGENS
+
+<img>
+
+<figure>
+
+<figcaption>
+
+<svg>
+
+<picture>
+
+TAGS SEMÂNTICAS IMPORTANTES
+
+<section>
+
+<main>
+
+<nav>
+
+<aside>
+
+<footer>
+
+<header>

@@ -6,6 +6,7 @@ body {
 table {
     border-collapse: collapse;
     width: 500px;
+    position: relative;
 }
 
 th {
@@ -27,6 +28,16 @@ caption {
 }
 
 thead, tfoot {
-    background-color: gray;
+    background-color: rgb(68, 67, 67);
     color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: rgb(68, 67, 67);
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: lightgray;
 }
