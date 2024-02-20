@@ -1,0 +1,46 @@
+
+
+                     TABELAS
+
+não se deve usar tabela pra criar a estrutura do site
+
+mas para mostrar dados pode ser usado
+
+HIERARQUIA  DE TABELAS (simples)
+TABLE = tabela
+    TABLE ROW = linha de tabela
+        TABLE HEADER = cabeçalho de tabela
+        TABLE DATA = dado de tabela
+
+de acordo o w3c é opcional o fechamento da tag td e tr
+
+Se você não colocar os elementos da tabela na hierarquia certa os dados vão aparecer antes ou depois da tabela
+
+alinhamento horizontal da tabela = text-align: center ou right (o padrão é left)
+
+alinhamento vertical da tabela = vertical-align: top ou bottom (o padrão é middle)
+
+
+ANATOMIA PARA TABELAS GRANDES
+TABLE
+    THEAD
+	TR, TD, TH
+    TBODY
+	TR, TD, TH
+    TFOOT
+	TR, TD, TH
+
+
+                        EFEITO ZEBRADO
+
+:nth-child(2n)
+
+efeito zebrado e bom ser usado quando a tabela tem muitas colunas ou quando a letra é muito pequena
+
+
+                     MESCLAGEM DE CÉLULAS
+
+rowspan=""
+colspan=""
+
+Com esse termo um dado consegue ocupar mais de uma coluna ou linha para organizar melhor uma tabela

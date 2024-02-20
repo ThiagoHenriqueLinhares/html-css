@@ -1,5 +1,7 @@
 TAGS HTML PARA INICIANTES
 
+:hover = muda o texto quando passa o mouse em cima
+
 <!doctype>  declaração para informar ao navegador qual é a versão do       HTML utilizada no arquivo
 
 <html>   Define um documento html

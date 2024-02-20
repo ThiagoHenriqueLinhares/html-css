@@ -1,0 +1,5 @@
+                               IFRAME
+
+<iframe src="..." frameborder="0"></iframe>
+
+Deve ser usado em situações específicas, não é útil em todos os sites. O tamanho padrão do iframe é 300x150 e quando a altura e a largura é configurada, o que conta em primeiro lugar é as CSS. Caso o navegador não seja compatível com um iframe é indicado colocar o link para o site.
