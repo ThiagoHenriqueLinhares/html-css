@@ -21,3 +21,23 @@ METODOS DE USO E DIFERENÇAS
 GET: Deve ser usado quando os dados não forem sensíveis, como senhas, número de cartão e endereços. Este método torna o formulário compartilhável, o metodo get não pode ultrapassar aproximadamente 3 mil letras.
 
 POST: Usado para dados sensíveis (O ideal é usar HTTPS Para criptografar os dados e deixar protegido), dever ser usado caso não quiser que os dados apareçam na URL, quando os dados ultrapassarem 3 mil letras e caso queira enviar arquivos.
+
+required
+
+Serve para dizer que o campo é obrigatório.
+
+minlength=".." e maxlength=".."
+
+Para dizer o mínimo de caracteres e o maximo de caracteres.
+
+size=".."
+
+Modifica o tamanho da caixa mostrando só uma quantidade de caracteres.
+
+placeholder=".."
+
+É bom ser usado para dar uma dica do conteúdo.
+
+autocomplete=".."
+
+Se o autocomplete for colocado em um input você pode especificar o conteúdo da caixa de texto.
