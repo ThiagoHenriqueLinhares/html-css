@@ -1,0 +1,23 @@
+			     FORMULARIOS
+
+<form action="cadastro.js" autocomplete="off">
+
+Este action serve para enviar um cadastro para alguma linguagem de programação.
+
+<input type="text" name="nome" id="inome">
+
+O name é mais utilizado em HTML e php, Já o id é utilizado em Javascript.
+
+<label for="inome">
+
+Para ligar algo a um controle é usado o id. O label é muito importante para fazer a relação entre qual objeto de formulário e qual a etiqueta dele, qual a relação de um e outro.Use sempre label.
+
+method="..."
+
+Existem 2 métodos, o Get que é o padrão, exibe os dados na url e o Post que não mostra, mas os dados não estão protegidos.
+
+METODOS DE USO E DIFERENÇAS
+
+GET: Deve ser usado quando os dados não forem sensíveis, como senhas, número de cartão e endereços. Este método torna o formulário compartilhável, o metodo get não pode ultrapassar aproximadamente 3 mil letras.
+
+POST: Usado para dados sensíveis (O ideal é usar HTTPS Para criptografar os dados e deixar protegido), dever ser usado caso não quiser que os dados apareçam na URL, quando os dados ultrapassarem 3 mil letras e caso queira enviar arquivos.
