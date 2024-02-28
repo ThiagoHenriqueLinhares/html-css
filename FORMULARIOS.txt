@@ -49,3 +49,19 @@ Para dizer o mínimo e máximo de um número.
 step=".."
 
 Para dizer de quanto em quanto a nota vai mudar.
+
+type="number"
+
+Um input de número.
+
+type="month"
+
+Um input de mês.
+
+type="date"
+
+Um input de data.
+
+type="time"
+
+Um input de hora.
