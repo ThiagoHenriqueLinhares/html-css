@@ -65,3 +65,7 @@ Um input de data.
 type="time"
 
 Um input de hora.
+
+		   COMPATIBILIDADE COM NAVEGADORES 
+
+Verifique sempre a compatibilidade com outros navegadores sempre que fazer um projeto.
