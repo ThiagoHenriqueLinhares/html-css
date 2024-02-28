@@ -41,3 +41,11 @@ placeholder=".."
 autocomplete=".."
 
 Se o autocomplete for colocado em um input você pode especificar o conteúdo da caixa de texto.
+
+min=".." e max=".."
+
+Para dizer o mínimo e máximo de um número.
+
+step=".."
+
+Para dizer de quanto em quanto a nota vai mudar.
