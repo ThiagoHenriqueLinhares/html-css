@@ -7,8 +7,29 @@
 </head>
 <body>
     <h1>Exemplo de Formulário</h1>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest">Estado: </label>
+            <select name="estado" id="iest">
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="ES">Espirito Santo</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="PI">Piauí</option>
+                    <option value="">Piauí</option>
+                    <option value="PI">Piauí</option>
+                    <option value="PI">Piauí</option>
+                    <option value="PI">Piauí</option>
+                    <option value="PI">Piauí</option>
+                    <option value="PI">Piauí</option>
+                    <option value="PI">Piauí</option>
+                </optgroup>
+            </select>
 
+        </p>
 
         <p>
             <input type="submit" value="Enviar">
