@@ -11,11 +11,15 @@
         <p>
             <label for="iest">Estado: </label>
             <select name="estado" id="iest">
-                <optgroup label="Região Sudeste">
-                    <option value="MG">Minas Gerais</option>
-                    <option value="SP">São Paulo</option>
-                    <option value="RJ">Rio de Janeiro</option>
-                    <option value="ES">Espirito Santo</option>
+                <option value="">---Escolha---</option>
+                <optgroup label="Região Norte">
+                    <option value="AM">Amazonas</option>
+                    <option value="PA">Pará</option>
+                    <option value="RR">Roraima</option>
+                    <option value="AP">Amapá</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="AC">Acre</option>
+                    <option value="TO">Tocantins</option>
                 </optgroup>
                 <optgroup label="Região Nordeste">
                     <option value="PI">Piauí</option>
@@ -28,8 +32,41 @@
                     <option value="AL">Alagoas</option>
                     <option value="SE">Sergipe</option>
                 </optgroup>
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="ES">Espirito Santo</option>
+                </optgroup>
+                <optgroup label="Região Centro-Oeste">
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="GO">Goiás</option>
+                </optgroup>
+                <optgroup label="Região Sul">
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+                </optgroup>
+                    <optgroup label="Distrito">
+                        <option value="DF">Distrito Federal</option>
+                    </optgroup>
             </select>
+        </p>
 
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option>Administrador</option>
+                <option>Cozinheiro</option>
+                <option>Programador</option>
+                <option>Vendedor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem: </label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua mensagem aqui..."></textarea>
         </p>
 
         <p>
