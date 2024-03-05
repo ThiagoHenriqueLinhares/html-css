@@ -69,3 +69,61 @@ Um input de hora.
 		   COMPATIBILIDADE COM NAVEGADORES 
 
 Verifique sempre a compatibilidade com outros navegadores sempre que fazer um projeto.
+----------------------------------------------------------------------
+
+Estudar mais sobre RegEx (expressões regulares)
+
+<fieldset>
+
+Cria uma borda em volta de campos fazendo um agrupamento.
+
+<legend>
+
+Cria uma legenda no fieldset.
+
+type="checkbox"
+
+Caixa de Marcação
+
+type="radio"
+
+Todo botão de rádio que faz parte do mesmo grupo, todas as bolinhas tem o name igual.
+
+checked
+
+A checkbox ou radio ja vem com a opção marcada como padrão.
+
+type="color"
+
+Coloca uma cor que você escolher no controle.
+
+type="range"
+
+Cria uma barra deslizante para escolher níveis. Pode ser modificada com min e max.
+
+type="file"
+
+Quando utilizar o tipo de controle file, você não pode utilizar o método get.
+
+<select name=".." id=".."></select>
+
+Cria um controle que ao clicar desce uma lista com nomes, estados, numeros e etc
+
+<option value".."></option>
+
+Adiciona os nomes, estados, números e etc
+
+<optgroup label=".."></optgroup>
+
+Agrupa os options.
+
+<datalist id=".."></datalist>
+
+ATENÇÃO: Para que isso funcione é necessário colocar um id na datalist e colocar um list no input de text
+
+Sugere uma opção em uma caixa de input de texto. Mas você pode digitar
+caso não haja a opção que procura.
+
+<textarea name=".." id=".." cols="30" rows="10"></textarea>
+
+Cria uma área com 30 colunas e 10 linhas como padrão para um visitante digitar algo.
