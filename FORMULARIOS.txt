@@ -127,3 +127,9 @@ caso não haja a opção que procura.
 <textarea name=".." id=".." cols="30" rows="10"></textarea>
 
 Cria uma área com 30 colunas e 10 linhas como padrão para um visitante digitar algo.
+
+<output id=".."></output>
+
+Conteúdo que não pode ser modificado pelo usuário. O valor do output não é feito para enviar e sim para calcular e mostrar coisas na tela.
+
+Obs: Estudar javascript para fazer exercícios com oninput como calculadora, calculadora de idade e mais.
