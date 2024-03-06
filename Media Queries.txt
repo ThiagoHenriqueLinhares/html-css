@@ -10,4 +10,18 @@ Especifica que este arquivo tela.css é somente para tela e o all seria para tud
 
 Estou criando arquivos diferentes para mídias diferentes como impressora e tela.
 
+Media Query = Media Types(Tipos de mídia) + Media Features(Características de mídias)
+
 screen, all e print são Media types.
+
+Media Features são escritas entre parênteses.
+
+screen and (orientation: portrait)
+
+Vai fazer a configuração de todas as telas que estejam em modo retrato
+
+screen and (orientation: landscape)
+
+Vai fazer a configuração de todas as telas que estejam em modo paisagem.
+
+
