@@ -1,0 +1,1 @@
+Media Queries: Serve para criar formas diferentes para exibir os conteúdos.
