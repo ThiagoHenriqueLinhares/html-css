@@ -1,1 +1,13 @@
 Media Queries: Serve para criar formas diferentes para exibir os conteúdos.
+
+<link rel="stylesheet" href="estilos/tela.css" media="screen">
+
+media="all"
+
+Especifica que este arquivo tela.css é somente para tela e o all seria para tudo.
+
+<link rel="stylesheet" href="estilos/impressora.css" media="print">
+
+Estou criando arquivos diferentes para mídias diferentes como impressora e tela.
+
+screen, all e print são Media types.
