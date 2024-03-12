@@ -24,4 +24,14 @@ screen and (orientation: landscape)
 
 Vai fazer a configuração de todas as telas que estejam em modo paisagem.
 
+@media screen and (orientation: portrait)
+
+Dentro dessa regra CSS você pode colocar todos os estilos para telas que estejam em modo retrato.
+
+@media screen and (orientation: landscape)
+
+Dentro dessa regra CS você pode colocar todos os estilos para telas que estejam em modo paisagem.
+
+
+
 
