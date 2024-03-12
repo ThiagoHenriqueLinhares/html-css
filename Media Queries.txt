@@ -26,11 +26,21 @@ Vai fazer a configuração de todas as telas que estejam em modo paisagem.
 
 @media screen and (orientation: portrait)
 
-Dentro dessa regra CSS você pode colocar todos os estilos para telas que estejam em modo retrato.
+Dentro dessa regra CSS você pode colocar todas as declarações para telas que estejam em modo retrato.
 
 @media screen and (orientation: landscape)
 
-Dentro dessa regra CS você pode colocar todos os estilos para telas que estejam em modo paisagem.
+Dentro dessa regra CSS você pode colocar todas as declarações para telas que estejam em modo paisagem.
+
+Obs: Deste jeito pode ficar confuso.
+
+Quando criar um estilo CSS externo com @media não é necessário declarar o mediatype e mediafeature no html.
+
+----------------------------MOBILE FIRST------------------------------
+
+Em vez de fazer o site completo para computador, fazer primeiro o site móvel para depois modificar o site sem remover funcionalidades.
+
+Vantagens: Facilidade para divulgação do site, Melhoria na experiência do usuário, Aumento de credibilidade do site e Melhor performance em mobile.
 
 
 
