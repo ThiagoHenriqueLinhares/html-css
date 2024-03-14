@@ -1,0 +1,61 @@
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+        font-size: 1.5em;
+        line-height: 1.2em;
+        width: 90vw;
+        border: 2px solid black;
+    }
+
+    h1 {
+        color: black;
+        text-shadow: none;
+    }
+
+    div {
+        padding: 3px;
+    }
+    
+    #phone {display: none;}
+    #print {display: block;}
+    #texto1 {display: block;}
+    #texto2 {display: block;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background: url(../imagens/back-tablet.jpg) no-repeat center center;
+    }
+
+    #phone {display: none;}
+    #tablet {display: block;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background: url(../imagens/back-pc.jpg) no-repeat center center;
+    }
+    
+    #phone {display: none;}
+    #print {display: none;}
+    #pc {display: block;}
+    #texto1 {display: block;}
+    #texto2 {display: block;}
+}
+@media screen and (min-width: 1200px) {
+    body {
+        background: url(../imagens/back-tv.jpg) no-repeat center center;
+    }
+
+    main {
+        width: 700px;
+    }
+
+    #phone {display: none;}
+    #pc {display: none;}
+    #tv {display: block;}
+    #texto {display: none;}
+}

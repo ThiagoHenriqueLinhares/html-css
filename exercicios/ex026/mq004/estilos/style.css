@@ -1,6 +1,6 @@
 
 /* Versão mobile first */
-
+    
 * {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
@@ -44,3 +44,7 @@ img {
 #print { display: none;}
 #pc { display: none;}
 #tv { display: none;}
+#texto1 {display: none;}
+#texto2 {display: none;}
+#texto3 {display: none;}
+#texto4 {display: none;}

@@ -42,6 +42,11 @@ Em vez de fazer o site completo para computador, fazer primeiro o site móvel pa
 
 Vantagens: Facilidade para divulgação do site, Melhoria na experiência do usuário, Aumento de credibilidade do site e Melhor performance em mobile.
 
+Typical Devicebreakpoints: É o tamanho médio de diferentes dispositivos que são.
 
+Celular: 600px e abaixo (min-width 600px)
+Tablet: 768px e acima - 600px (deitado e em pe) (min-width 768px)
+Desktop: 992px e acima (min-width 992px)
+TV: 1200px e acima (min-width 1200px)
 
 
