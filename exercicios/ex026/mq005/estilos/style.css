@@ -1,0 +1,79 @@
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(209, 204, 204);
+}
+
+header h1 {
+    text-align: center;
+    padding: 10px 10px 30px 10px
+}
+
+#burguer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    width: 100vw;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
+}
+
+header {
+    background-color: gray;
+}
+
+li {
+}
+
+a {
+    display: block;
+    background-color: rgb(85, 79, 79);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid gray;
+}
+
+a:hover {
+    background-color: gray;
+}
+
+main {
+    width: 90vw;
+    display: block;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
