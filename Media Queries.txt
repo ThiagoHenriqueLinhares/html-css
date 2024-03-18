@@ -44,9 +44,11 @@ Vantagens: Facilidade para divulgação do site, Melhoria na experiência do usu
 
 Typical Devicebreakpoints: É o tamanho médio de diferentes dispositivos que são.
 
-Celular: 600px e abaixo (min-width 600px)
-Tablet: 768px e acima - 600px (deitado e em pe) (min-width 768px)
-Desktop: 992px e acima (min-width 992px)
+Celular: 600px a 768px (min-width 600px)
+Tablet: 768px a 992px - 600px (deitado e em pe) (min-width 768px)
+Desktop: 992px a 1200px (min-width 992px)
 TV: 1200px e acima (min-width 1200px)
+
+Obs: em media print não aparece imagem de fundo
 
 
