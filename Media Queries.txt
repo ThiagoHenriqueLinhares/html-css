@@ -51,4 +51,20 @@ TV: 1200px e acima (min-width 1200px)
 
 Obs: em media print não aparece imagem de fundo
 
+Menu hamburguer:
 
+No icone do menu: 
+
+    onclick="clickMenu()
+    
+Ao final do body:
+    
+    <script>
+        function clickMenu () {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
