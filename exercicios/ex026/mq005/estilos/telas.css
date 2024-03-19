@@ -1,3 +1,17 @@
-@media screen and (min-width: 600) and (max-width: 768px) {
-    
+@media screen and (min-width: 768px) {
+    #burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
 }

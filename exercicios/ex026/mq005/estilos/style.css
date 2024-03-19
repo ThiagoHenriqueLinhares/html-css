@@ -1,7 +1,4 @@
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
-    
-}
 
 * {
     margin: 0;
@@ -41,9 +38,6 @@ header {
     background-color: gray;
 }
 
-li {
-}
-
 a {
     display: block;
     background-color: rgb(85, 79, 79);
@@ -76,4 +70,8 @@ p {
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    
 }
