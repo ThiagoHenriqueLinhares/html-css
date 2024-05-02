@@ -1,0 +1,60 @@
+<script></script>
+
+Serve para criar comandos javascript
+
+prompt('Qual o seu nome?')
+
+Mostra uma mensagem
+
+alert('Ola')
+
+Cria um alerta Ola
+
+
+Variaveis é um local na memória do computador que armazena um valor de um certo tipo.
+
+Uma constante é uma variável que não pode ser alterada.
+
+Obs: Não é recomendado usar var para uma variável.
+
+let = variavel
+
+const = constante
+
+let nome = prompt('Qual o seu nome?')
+
+armazena o nome digitado em uma variável nome.
+
+alert('Ola, nome')
+
+exibe o nome armazenado na variável em um alerta.
+
+Obs: ao atribuir um nome a variável não é possível começar com números ou colocar caracteres especiais ou um nome de um comando reservado pelo javascript como alert.
+
+// comentário de uma linha
+
+/* 
+comentário de 
+varias linhas 
+*/
+----------------------------------------------------------------------
+
+Tudo o que vem da interface gráfica do usuário é texto.
+
+                        OPERADORES ARITMÉTICOS
+
+Somar (+)
+Subtrair (-)
+Multiplicar (*)
+Dividir (/)
+Resto da divisão ou módulo (%)
+
+                         CONVERSÃO ENTRE TIPOS
+
+Converter para número: Number(), parseInt() e parseFloat()
+
+numero1 = parseFloat(numero1)
+
+O texto armazenado na variavel numero1 vai ser convertido para numero  decimal e armazenar novamente na variável. 
+
+Obs: Quando se usa Number não pode haver nenhuma letra, mas no caso de parseFloat e parseInt se a letra for colocada depois do número ela vai ser ignorada mostrando só os números
